@@ -16,7 +16,7 @@ const add = () => {
         <span class="w-3 h-3 rounded-sm border border-zinc-500 bg-violet-400"></span>
         <span class="w-3 h-3 rounded-sm border border-zinc-500 bg-violet-300"></span>
       </div>
-      <h1 class="text-3xl font-black">
+      <h1 class="text-3xl font-black lg:text-4xl">
         habits
       </h1>
     </section>
