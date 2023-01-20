@@ -1,5 +1,12 @@
+<script setup lang="ts">
+import { TheContainer } from './components/TheContainer';
+import { TheHeader } from './components/TheHeader';
+import { Tracker } from './components/Tracker';
+</script>
+
 <template>
-  <div class="text-8xl flex items-center justify-center">
-    <span>hello world!</span>
-  </div>
+  <TheContainer>
+    <TheHeader />
+    <Tracker />
+  </TheContainer>
 </template>
